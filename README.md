@@ -1,9 +1,9 @@
-# Cutregram  
+# CutregramClient  
 
 Máster Keepcoding Bootcamp 2015 - Módulo AngularJS.
 
 Este repo contiene ejercicios desarrollados en el módulo para la aplicación **Cutregram**. Se trata de un frontend
-que consume la API expuesta por el profesor del módulo en [Cutregram]
+que consume la API expuesta por el profesor del módulo en [Cutregram API]
 
 ### Version
 0.1.0
@@ -27,7 +27,7 @@ Cutregram usa un número de proyectos open source para funcionar correctamente:
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does it's job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [AngularJS]: <https://angularjs.org/>
-   [Cutregram]: <http://cutregram-sp.appspot.com/api/1/posts>
+   [Cutregram API]: <http://cutregram-sp.appspot.com/api/1/posts>
 
 
 
