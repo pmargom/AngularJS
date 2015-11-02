@@ -1,0 +1,14 @@
+<div> <!-- ya no tengo que poner ng-controller porque se encarga ng-route-->
+    <span>Nº de post: {{ posts.length }}</span>
+    <table class="table">
+        <tr ng-repeat="post in posts | orderBy: '-created'">
+            <td><img src="{{ post.image_url}}" alt="{{ post.image_url}}" class="img-rounded"/></td>
+            <td>
+                Creado por: <b>{{ post.author }}</b> el <b>{{ post.created | date:"dd/MM/yyyy '-' h:mma" }}</b><br/>
+                {{ post.text }}
+            </td>
+            <td>Me gusta: {{ post.likes }}</td>
+            <td>No me gusta: {{ post.dislikes }}</td>
+        </tr>
+    </table>
+</div>
